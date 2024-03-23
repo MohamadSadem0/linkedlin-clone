@@ -1,10 +1,15 @@
-import Header from './components/header/HeaderComponent';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Authentication from "./Authentication";
 
 const App = () => {
   return (
-    <div>
-      {/* <header /> */}
-    </div>
+    <BrowserRouter>
+      <Routes>
+        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/auth" element={<Authentication />} />
+        {/* <Route path="/quiz" element={<Quiz />} /> */}
+      </Routes>
+    </BrowserRouter>
   );
 };
 
