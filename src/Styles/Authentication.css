@@ -97,7 +97,7 @@ li {
   width: 65%;
 }
 
-.loginForm .inp {
+.inp {
   border-color: #000000;
   border-radius: 4px;
   border-style: solid;
@@ -110,7 +110,7 @@ li {
   width: 92%;
 }
 
-.loginForm .pass-inp {
+ .pass-inp {
   border-color: transparent;
   width: 100%;
 }
