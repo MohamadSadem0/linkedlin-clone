@@ -1,14 +1,12 @@
 import React from "react";
-import Header from './../components/Authentication/AuthHeader'
+import SignupForm from "./../components/Authentication/signupForm";
 
-const loginScreen = () => {
+const Authentication = () => {
   return (
     <div>
-      <Header/>
-      <div className="logo-container"></div>
-
+      <SignupForm />
     </div>
   );
 };
 
-export default loginScreen;
+export default Authentication;
