@@ -1,4 +1,4 @@
-import "./Styles/Authentication.css";
+// import "./Styles/Authentication.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Authentication from "./pages/Authentication";
 import Home from "./pages/Home";

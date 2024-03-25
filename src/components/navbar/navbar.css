@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 0;
+}
+.navBar {
+  padding-top: 9px;
+  z-index: 123;
+  padding-left: 119px;
+  padding-right: 119px;
+  height: auto;
+  align-items: center;
+  color: #000000;
+  display: flex;
+
+  grid-area: auto;
+  justify-content: space-between;
+  line-height: 24px;
+  margin: 0px 110.5px;
+  padding: 12px 0px 16px;
+}
+
+.navBar .sm-logo {
+  height: 41px;
+  width: 41px;
+}
+.search-box {
+  height: 30px;
+  border-color: transparent;
+  border-width: 0;
+}
+
+.search-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.bg-baby-blue {
+  border-color: #edf3f8;
+}
+
+.navBar li {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+}
+.navBar li > img {
+  display: flex;
+
+  height: 24px;
+  width: 24px;
+
+  flex-shrink: 0;
+}

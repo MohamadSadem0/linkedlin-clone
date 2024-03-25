@@ -5,8 +5,8 @@ import Login from "./../components/Authentication/loginForm";
 const Authentication = () => {
   return (
     <div>
-      <SignupForm />
-      {/* <Login></Login> */}
+      {/* <SignupForm /> */}
+      <Login></Login>
     </div>
   );
 };
