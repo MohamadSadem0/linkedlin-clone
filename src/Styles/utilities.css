@@ -1,4 +1,3 @@
-
 /* Display */
 .hidden {
   display: none !important;
@@ -26,19 +25,19 @@
 }
 
 /* Flexbox */
-.gap-10{
+.gap-10 {
   gap: 10px;
 }
-.gap-20{
+.gap-20 {
   gap: 20px;
 }
-.gap-30{
+.gap-30 {
   gap: 30px;
 }
-.gap-40{
+.gap-40 {
   gap: 40px;
 }
-.gap-50{
+.gap-50 {
   gap: 50px;
 }
 .flex-row {
@@ -89,6 +88,9 @@
 /* Sizing */
 .w-auto {
   width: auto !important;
+}
+.w-100 {
+  width: 100vw !important;
 }
 .h-auto {
   height: auto !important;
